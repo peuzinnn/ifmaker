@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/particles.min.js"></script>
+    <title> IFMaker - Eunápolis</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./faleconosco.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+</head>
+<div class="tenta-aqui">
+    <div id="particles-js" style="position: absolute; z-index: -1; height: 100%; width: 100%;"></div>
+</div>
+<script src="scripts/particles.js"></script>
+<body>
+<section class="section1"> 
+    <img class="quemsomos-img" src="./imgs/ifmakerlogo.png">
+    <nav class="menu"> 
+        <a href="./index.html" target="_self">Inicio</a>
+        <a href = "./quemsomosifmaker.html" target="_self">Quem somos</a>
+        <a href = "./principaisprojetos.html" target = "_self">Principais Projetos</a>
+        <a href = "./faleconosco.html" target = "_self">Fale conosco</a>
+    </nav>
+    <h1>Fale conosco</h1>
+</section>
+<section class="formulario">   
+    <form>
+    <div class="form-item">   
+        <label>Nome</label>
+        <input type="text" placeholder="Nome" name="nome" required/>
+    </div>
+    <div class="form-item">   
+        <label>E-mail</label>
+        <input type="text" placeholder="E-mail" name="E-mail" required/>
+    </div>
+    <div class="form-item">   
+        <label>Telefone</label>
+        <input type="text" placeholder="Telefone" name="telefone" required/>
+    </div>
+    <div class="form-item">  
+        <label>Mensagem</label>
+        <textarea class="caixa-de-texto" rows="10" name="msg" placeholder="Mensagem" required></textarea>
+    </div>
+    <div style="margin: 0px auto;">
+        <center><input class="form-submit" type="submit" value="Enviar"></center>
+    </div>
+    </form>
+</section>  
+
+</body>
+</html>
